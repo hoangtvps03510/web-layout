@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0px; padding:0px;}
+
+a{text-decoration:none; color:#000}
+
+#wrapper{ width:1280px; height:auto; margin:0 auto;}
+
+#header {width: 1280px;height: 190px;background-color:#CB0003 ;position: relative; border-bottom:solid 5px #CCCCCC;}
+
+#logo{ top: 30px; left:100px; position:absolute;}
+
+#banner{ top: 15px; left:700px; position:absolute;}
+
+#menu{width:1180px; height:40px;top: 150px; left : 0; position:absolute; padding-left:100px;}
+#menu ul { margin:0px; padding:0px; list-style:none;}
+#menu ul li{ height:30px; line-height:40px; display:block; float:left; text-align:center;}
+
+#menu ul li a{color: #FFF;font-size: 16px;font-weight: bold;text-decoration: none;display:block;padding-left:10px; padding-right:10px;}
+
+#menu ul li a:hover{color:#F00; background-image:url(../images/menu.png);}
+
+/*Định dạng hiển thị cho div content, div content co 2 phan tu con la content_left va content_right, nam song song nen thuoc thinh la float:left */
+#content{width: 1080px; height:1615px; margin-left:100px; margin-right:100px ;}
+
+/*Định dạng hiển thị cho div content_left, div troi ve ben trai nen thuoc tinh la float:left */
+#content_left{width:770px;height:1615px; margin-right:10px; float:left;}
+
+/*Định dạng hiển thị cho o tieu de, gom 3 div nho, float:left ca 3 div */
+#first{width:750px;height:80px; padding-left:20px; }
+
+/*Định dạng hiển thị cho div chứa tieu de lớn bên trái*/ 
+#first_1{width:150px; height:80px;display:block;float:left; }
+#first_1 h1{margin:0px; line-height:70px; color:#F00}
+
+/*Định dạng hiển thị cho div chứa ngày tháng năm ben phai: float:right; border:dotted de lam cac dong gach ----*/
+#first_2{width:600px; height:39px; float:left; ; border-bottom:dotted 1px #000}
+#first_2 p{margin:0; float:right; padding-top:20px; padding-right:10px}
+#first_3{width:600px; height:40px; float:left; }
+
+/*Định dạng hiển thị cho div tin1- tin lon dau tien */
+#tin1{width:770px; height:300px; background-color:#FFF;margin:0px}
+#tin1 h1{margin-top:0px; padding-top:10px}
+#tin1 a{color:#F00;}
+#tin1 a:hover{color:#00F}
+
+/*Định dạng hiển thị cho hinh nam ben trai va chu nam ben phai */
+#tin1 img{display:block; float:left; margin-right:10px}
+#tin1 ul {margin:0px; padding:0px; list-style:none} 
+
+/*Định dạng hiển thị cho icon mui ten thay cho dau cham mac dinh*/
+#tin1 ul li a{background-image:url(../images/muiten2.jpg); background-repeat:no-repeat; background-position:5px; padding-left:25px; line-height:25px; text-decoration:none; color:#000}
+#tin1 ul li a:hover{color:#00F}
+
+
+/*Định dạng hiển thị cho div tin3- ca tin nho phai duoi */
+#tin3{width:770px; height:155px; border-top: dotted 1px #000; background-color:#FFF; margin-top:20px ; padding-top: 20px}
+#tin3 img{float:left; margin-right:10px; width: 180px; }
+#tin3 span{font-size:18px; color:#333; font-weight:bold}
+#tin3 a:hover{color:#00F;}
+#tin3 ul {margin:0px; padding:0px; list-style:none}
+#tin3 ul li a{background-image:url(../images/muiten2.jpg); background-repeat:no-repeat; background-position:5px; text-decoration:none; color:#000; padding-left:25px; line-height:30px}
+#tin3 ul li a:hover{color:#00F}
+
+/*Định dạng hiển thị cho o tieu de ben duoi trang, thuoc tinh tuong tu div first */
+#second{width:750px;height:80px; padding-left:20px; margin-top:20px }
+#second_1{width:200px; height:80px ;float:left; }
+#second_1 h1{margin:0px; line-height:70px; color:#F00}
+#second_2{width:550px; height:39px; float:left; border-bottom:dotted 1px #000}
+#second_3{width:550px; height:40px; float:left; }
+
+/*Định dạng hiển thị cho div tk- hien thi cac tin con song song phia duoi cung cua div content */
+#tk{width:770px; height:120px}
+
+/*Định dạng hiển thị cho div tk1- cac tin nam trong li ben trai*/
+#tk_1{width:380px; height:120px; margin-right:10px; float:left}
+#tk_1 ul {margin:0px; padding:0px; list-style:none}
+#tk_1 ul li{line-height:40px}
+#tk_1 ul li a{background-image:url(../images/Muiten.png); background-repeat:no-repeat; background-position:5px; padding-left: 25px; line-height:30px;text-decoration: none; color:#000; }
+#tk_1 ul li a:hover{color:#00F;}
+
+/*Định dạng hiển thị cho div tk2- cac tin nam trong li ben phai*/
+#tk_2{width:380px; height:120px; float:left}
+#tk_2 ul {margin:0px; padding:0px; list-style:none}
+#tk_2 ul li{line-height:40px}
+#tk_2 ul li a{background-image:url(../images/Muiten.png); background-repeat:no-repeat; background-position:5px; padding-left: 25px; line-height:30px;text-decoration: none; color:#000 }
+#tk_2 ul li a:hover{color:#00F;}
+
+/*Định dạng hiển thị cho div content_right*/
+#content_right{width:300px;height:1615px;background-color:#FFF; float:left;-webkit-border-top-left-radius: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-topleft: 20px;
+-moz-border-radius-topright: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;}
+
+/*Định dạng hiển thị cho div search*/
+#search{width:300px; height: 120px ;background-image:url(../images/search.jpg); background-repeat:norepeat; text-align:center;-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;}
+
+/*Định dạng hiển thị cho the input-text co id text1*/
+#text1{font-family:"Times New Roman", Times, serif; font-weight:bold; font-style:italic; font-size:14px; color:#999; margin-top:10px}
+
+/*Định dạng hiển thị cho the input-button co id text1*/
+#button1{color:#FFF; background-color:#F00;}
+
+/*Định dạng hiển thị cho div 'xem nhieu nhat' co id menu2*/
+#menu2{width:300px; height:285px ;float:none; clear:both; border: solid 0.5px #CCC; margin:10px 0 10px 0}
+#menu2 p{color:#666; font-weight:bold; margin-left:20px; font-size:18px}
+#menu2 ul{margin:0px; padding:0px; list-style:none;}
+#menu2 ul li{display:block}
+
+/*Định dạng hiển thị cho div co nen in dam*/
+#color{background-color:#CCC}
+
+#menu2 ul li a{background-image:url(../images/Muiten.png); background-repeat:no-repeat; background-position:5px; padding-left: 25px; line-height:30px;text-decoration: none; color:#000 }
+#menu2 ul li a:hover{color:#00F;}
+
+/*dinh dang dien thi cho div chua video*/
+#clip{height:583px; width:300px; margin-top:10px ; margin-bottom:10px; border: solid 0.5px #CCC;}
+#clip p{color:#666; font-weight:bold; margin-left:20px; font-size:18px}
+
+/*dinh dang dien thi cho div chua iframe-video lay tu youtube nhung qua*/
+#clip iframe{margin-bottom:10px}
+
+#clip ul{margin:0px; padding:0px; list-style:none}
+#clip ul li{line-height:40px}
+#clip ul li a{background-image:url(../images/muiten2.jpg); background-repeat:no-repeat; background-position:5px; padding-left:25px; line-height:30px; text-decoration: none; color:#000; }
+#clip ul li a:hover{color:#00F;}
+
+/*dinh dang dien thi cho div footer*/
+#footer{width:1080px; height:205px; margin-left:100px; margin-right:100px; background-color:#FFF; text-align:center; font-size:20px; line-height:30px; font-weight:bold; border-top:solid 15px #F00 }
